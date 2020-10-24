@@ -28,17 +28,17 @@ public class Animal {
         this.isAlive = isAlive;
     }
 
-    void feed(){
+    void feed() {
         weight += 2;
         System.out.println("feed: " + weight);
     }
 
-    void takeForAWalk(){
+    void takeForAWalk() {
         weight -= 3;
         System.out.println("walk: " + weight);
     }
 
-    boolean die(){
+    boolean die() {
         System.out.println("Reksio is dead!");
         return isAlive = false;
     }

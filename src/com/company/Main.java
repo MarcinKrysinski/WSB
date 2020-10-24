@@ -14,5 +14,10 @@ public class Main {
                 dog.die();
             }
         }
+
+
+        Car car = new Car("VW", "Passat", "Blue");
+        System.out.println(car);
+
     }
 }
